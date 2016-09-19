@@ -92,9 +92,9 @@ $trim-color-classes: false !default;
 
 // Use color primarily for emphasis. Choose colors that fit with
 // your brand and provide good contrast between visual components.
-$color-primary: $palette-indigo-500 !default;
-$color-primary-dark: $palette-indigo-700 !default;
-$color-accent: $palette-pink-A200 !default;
+$color-primary: $palette-cyan-500!default;
+$color-primary-dark: $palette-cyan-800!default;
+$color-accent: $palette-orange-900 !default;
 
 // Our primary is dark, so use $color-dark-contrast for overlaid text.
 $color-primary-contrast: $color-dark-contrast !default;
@@ -190,7 +190,7 @@ $layout-drawer-border-color: unquote("rgb(#{$palette-grey-300})") !default;
 $layout-text-color: unquote("rgb(#{$palette-grey-800})") !default;
 $layout-drawer-navigation-color: #757575 !default;
 $layout-drawer-navigation-link-active-background: unquote("rgb(#{$color-light-contrast})") !default;
-$layout-drawer-navigation-link-active-color: unquote("rgb(#{$palette-grey-300})") !default;
+$layout-drawer-navigation-link-active-color: unquote("rgb(#{$color-primary})") !default;
 
 // Header
 $layout-header-bg-color: unquote("rgb(#{$color-primary})") !default;
@@ -210,10 +210,10 @@ $tab-border-color: unquote("rgb(#{$palette-grey-300})") !default;
 
 /* ==========  Checkboxes  ========== */
 
-$checkbox-color: unquote("rgb(#{$color-primary})") !default;
+$checkbox-color: unquote("rgb(#{$color-primary-dark})") !default;
 $checkbox-off-color: unquote("rgba(#{$color-black}, 0.54)") !default;
-$checkbox-disabled-color: unquote("rgba(#{$color-black}, 0.26)") !default;
-$checkbox-focus-color: unquote("rgba(#{$color-primary}, 0.26)") !default;
+$checkbox-disabled-color: unquote("rgba(#{$color-primary-dark}, 0.26)") !default;
+$checkbox-focus-color: unquote("rgba(#{$color-primary-dark}, 0.26)") !default;
 $checkbox-image-path: $image_path;
 
 /* ==========  Switches  ========== */
