@@ -229,8 +229,8 @@ componentHandler = (function() {
 
       var ev;
       if ('CustomEvent' in window && typeof window.CustomEvent === 'function') {
-        ev = new Event('mdl-componentupgraded', {
-          'bubbles': true, 'cancelable': false
+        ev = new CustomEvent('mdl-componentupgraded', {
+          bubbles: true, cancelable: false
         });
       } else {
         ev = document.createEvent('Events');
@@ -360,8 +360,8 @@ componentHandler = (function() {
 
       var ev;
       if ('CustomEvent' in window && typeof window.CustomEvent === 'function') {
-        ev = new Event('mdl-componentdowngraded', {
-          'bubbles': true, 'cancelable': false
+        ev = new CustomEvent('mdl-componentdowngraded', {
+          bubbles: true, cancelable: false
         });
       } else {
         ev = document.createEvent('Events');
