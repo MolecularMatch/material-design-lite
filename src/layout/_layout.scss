@@ -443,7 +443,7 @@
     overflow-y: auto;
     overflow-x: hidden;
     flex-grow: 1;
-    z-index: 1;
+    z-index: auto;
     -webkit-overflow-scrolling: touch;
 
     .mdl-layout--fixed-drawer > & {
